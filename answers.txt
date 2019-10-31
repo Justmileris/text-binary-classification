@@ -1,0 +1,24 @@
+1. Describe text processing pipeline you have selected.
+
+	Read data
+	Add labels
+	Merge data
+	Sentences split to words
+	Lemmatisation
+	Data split to train, test
+	Vectorization (CountVectorizer)
+	Classifiers (Naive Bayes, SVM, Logistic Regression, Random Forest)
+	Neural Networks
+
+2. Why you have selected these two classification methods?
+
+	Naive Bayes showed highest accuracy.
+	Neural networks - for fun and its possibilities.
+
+3. Compare selected classification methods. Which one is better? Why?
+
+	Even Naive Bayes showed highest accuracy (78.37%), Neural Nets (76.24%) has wide range for modificatons. In addition, speed should be important measurement. Implementations for these methods might be optimised, therefore higher accuracy does not mean that algorithm is better.
+
+4. How would you compare selected classification methods if the dataset was imbalanced?
+
+	Instead of accuracy better insights would give confusion matrix, precision, recall, F1 measure score. Try many algorithms. If it is possible try augmentation.
